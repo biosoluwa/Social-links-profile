@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Social links profile</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      body {
+        background-color: #141414ff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: "Inter", sans-serif;
+        min-height: 100vh;
+        margin: 0;
+        gap: 20px;
+      }
+      .container {
+        background-color: #1f1f1fff;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        border-radius: 8px;
+        padding: 30px;
+      }
+      img {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+      }
+      h1 {
+        color: #ffffffff;
+        margin: 0;
+        font-weight: 700;
+        font-size: 20px;
+      }
+      p {
+        color: #ffffffff;
+        margin: 0;
+        font-weight: 400;
+        font-size: 12px;
+      }
+      a {
+        color: #ffffffff;
+        margin: 0;
+        font-weight: 600;
+        text-decoration: none;
+        font-size: 14px;
+        cursor: pointer;
+      }
+      .london {
+        color: #c5f82aff;
+      }
+
+      .links {
+        background-color: #333333ff;
+        width: 250px;
+        height: 400px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .links:hover,
+      .links:focus {
+        background-color: #c5f82aff;
+      }
+      .links:hover a,
+      .links:focus a {
+        color: black;
+      }
+      @font-face {
+        font-family: "Inter";
+        src: url(assets/fonts/static/Inter-Bold.ttf);
+        font-weight: 700;
+      }
+      @font-face {
+        font-family: "Inter";
+        src: url(assets/fonts/static/Inter-SemiBold.ttf);
+        font-weight: 600;
+      }
+
+      @font-face {
+        font-family: "Inter";
+        src: url(assets/fonts/static/Inter-Regular.ttf);
+        font-weight: 400;
+      }
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        color: white;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+
+      @media (max-width: 375px) {
+        .container {
+          width: 90%;
+          height: auto;
+          padding: 10px;
+        }
+        img {
+          width: 50px;
+          height: 50px;
+        }
+        h1 {
+          font-size: 15px;
+        }
+        p {
+          font-size: 10px;
+        }
+        .links {
+          width: 100%;
+          font-size: 10px;
+          padding: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="./assets/images/avatar-jessica.jpeg" alt="Jessica image" />
+      <h1>Adekunle Biosoluwa</h1>
+      <p class="london">London, United Kingdom</p>
+      <p>"Front-end developer and avid reader."</p>
+
+      <div class="links"><a href="" target="_blank"> GitHub</a></div>
+      <div class="links"><a href="" target="_blank"> Frontend Mentor</a></div>
+      <div class="links"><a href="" target="_blank"> LinkedIn</a></div>
+      <div class="links"><a href="" target="_blank"> Twitter</a></div>
+      <div class="links"><a href="" target="_blank"> Instagram</a></div>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Biose</a>.
+    </div>
+  </body>
+</html>
